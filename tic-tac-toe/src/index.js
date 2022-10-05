@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import styled from 'styled-components'
-import {createFragmentContainer, graphql} from 'react-relay'
-import './index.css'
+import './index.css';
+import App from './App';
 
 class Board extends React.Component {
     renderSquare(i) {
@@ -28,3 +27,6 @@ class Square extends React.Component {
         )
     }
 }
+
+const root = ReactDOM.createRoot.
+root.render(<App />);
